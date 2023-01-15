@@ -11,7 +11,7 @@
     <script>
         if ("serviceWorker" in navigator) {
             navigator.serviceWorker
-                .register("/service-worker.js")
+                .register('/codebase/service-worker.js')
                 .then(function() {
                     console.log("ServiceWorker has been registered!");
                 })
@@ -28,16 +28,16 @@
 <body>
 <header>
     <div>
-        <a id="logolink" href="/"><img id="logo" class="standard" src="/codebase/_assets/deltion.svg" alt="logo"></a>
+        <a id="logolink" href="/codebase/"><img id="logo" class="standard" src="/codebase/_assets/deltion.svg" alt="logo"></a>
         <nav> 
         
-            <a href="/" class="nav-link" >Home</a>
+            <a href="/codebase/" class="nav-link" >Home</a>
         
-            <a href="/codebase/introductie/" class="nav-link" >Codebase</a>
+            <a href="/codebase/codebase/introductie/" class="nav-link" >Codebase</a>
         
-            <a href="/test/index/" class="nav-link" >Testing</a>
+            <a href="/codebase/test/index/" class="nav-link" >Testing</a>
         
-            <a href="/projecten/introductie/" class="nav-link" >Projecten</a>
+            <a href="/codebase/projecten/introductie/" class="nav-link" >Projecten</a>
         
         </nav>
     </div>
@@ -47,7 +47,7 @@
         <ul>
         
             <li aria-current="page" data-state="active">
-                <a class="page-link" href="/projecten/evenement/">
+                <a class="page-link" href="/codebase/projecten/evenement/">
                     <div>
                         <div class="title">Evenement</div>
                         <div class="difficulty">
@@ -63,7 +63,7 @@
             </li>
         
             <li >
-                <a class="page-link" href="/projecten/introductie/">
+                <a class="page-link" href="/codebase/projecten/introductie/">
                     <div>
                         <div class="title">Introductie</div>
                         <div class="difficulty">
